@@ -23,7 +23,7 @@ const styles = StyleSheet.create({
         padding: 10,
         justifyContent: 'center',
         alignItems: 'center',
-        backgroundColor: 'skyblue'
+        backgroundColor: 'skyblue',
     },
     qnImg: {
         margin:10,
@@ -50,7 +50,7 @@ const styles = StyleSheet.create({
 const QuizQuestion = ({question}) => {
     return (
         <View style={styles.qn}>
-            <Text>{question}</Text>
+            <Text style={{textAlign:'center'}}>{question}</Text>
         </View>
     );
 };
